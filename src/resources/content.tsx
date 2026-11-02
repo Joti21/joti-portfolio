@@ -50,7 +50,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name} — Industrial Engineering, Supply Chain Analytics and Data Science`,
   description: `Academic and professional portfolio of ${person.name}, an industrial engineer working in supply chain analytics and data science.`,
-  headline: <>Industrial engineering, supply chain analytics and data science for operational problems</>,
+  headline: <>Industrial engineering for supply chain analytics, operations research and data science</>,
   featured: {
     display: false,
     title: (
@@ -66,8 +66,14 @@ const home: Home = {
   },
   subline: (
     <>
-      I am {person.name}, an industrial engineer combining supply chain knowledge and data science
-      to analyse and improve real-world operational systems.
+      I am an industrial engineer with professional experience in distribution, logistics, and
+      inventory management systems. I combine practical supply chain expertise with applied
+      statistics and data science to analyze complex operational challenges, develop data-driven
+      insights, and support better decision-making.
+      <br />
+      <br />
+      My interests include supply chain optimization, predictive analytics, demand forecasting,
+      operations research, and sustainable operations.
     </>
   ),
 };
